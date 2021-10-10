@@ -240,8 +240,8 @@ body {
 
 .x4 {
     position: absolute;
-    left: 202px;
-    top: 609px;
+    left: 242px;
+    top: 629px;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -260,49 +260,48 @@ body {
 
 .buledh1 {
     position: absolute;
-    left: 158px;
-    top: 19px;
+    left: 298px;
+    top: 10px;
 }
 
 .buledh2 {
     position: absolute;
-    left: 2px;
+    left: 32px;
     top: 270px;
 }
 
 .buledh3 {
     position: absolute;
-    left: 326px;
+    left: 356px;
     top: 349px;
-
 }
 
 .buledh4 {
     position: absolute;
-    left: 84px;
-    top: 528px;
+    left: 104px;
+    top: 558px;
 }
 
 .garisputus-atas {
     position: absolute;
-    left: 218px;
+    left: 105px;
     top: 0px;
 }
 
 .garis-kiri {
     position: absolute;
-    left: -45px;
+    left: -10px;
     top: 157px;
 }
 
 .garis-kanan {
     position: absolute;
-    left: 223px;
+    left: 240px;
     top: 402px;
 }
 
 .garisputus-bawah {
     position: absolute;
-    left: -10px;
-    top: 579px;
+    left: -5px;
+    top: 600px;
 }
