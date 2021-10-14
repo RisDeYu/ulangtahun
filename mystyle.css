@@ -210,8 +210,8 @@ body {
 
 .x1 {
     position: absolute;
-    left: 10px;
-    top: 68px;
+    left: 5%;
+    top: 7%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -220,8 +220,8 @@ body {
 
 .x2 {
     position: absolute;
-    left: 328px;
-    top: 152px;
+    top: 20%;
+    right: 10%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -230,8 +230,8 @@ body {
 
 .x3 {
     position: absolute;
-    left: 22px;
-    top: 418px;
+    left: 2%;
+    top: 60%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -240,12 +240,60 @@ body {
 
 .x4 {
     position: absolute;
-    left: 242px;
-    top: 629px;
+    right: 40%;
+    top: 87%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+
+.buledh1 {
+    position: absolute;
+    right: 4%;
+    top: 2%;
+}
+
+.buledh2 {
+    position: absolute;
+    left: 7%;
+    top: 28%;
+}
+
+.buledh3 {
+    position: absolute;
+    right: 1%;
+    top: 43%;
+}
+
+.buledh4 {
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+}
+
+.garisputus-atas {
+    position: absolute;
+    right: 18%;
+    top: 0;
+}
+
+.garis-kiri {
+    position: absolute;
+    left: 0%;
+    top: 18%;
+}
+
+.garis-kanan {
+    position: absolute;
+    right: -4%;
+    top: 402px;
+}
+
+.garisputus-bawah {
+    position: absolute;
+    left: -5px;
+    top: 600px;
 }
 
 @keyframes muter {
@@ -256,52 +304,4 @@ body {
     to {
         transform: rotate(360deg);
     }
-}
-
-.buledh1 {
-    position: absolute;
-    left: 298px;
-    top: 10px;
-}
-
-.buledh2 {
-    position: absolute;
-    left: 32px;
-    top: 270px;
-}
-
-.buledh3 {
-    position: absolute;
-    left: 356px;
-    top: 349px;
-}
-
-.buledh4 {
-    position: absolute;
-    left: 104px;
-    top: 558px;
-}
-
-.garisputus-atas {
-    position: absolute;
-    left: 105px;
-    top: 0px;
-}
-
-.garis-kiri {
-    position: absolute;
-    left: -10px;
-    top: 157px;
-}
-
-.garis-kanan {
-    position: absolute;
-    left: 240px;
-    top: 402px;
-}
-
-.garisputus-bawah {
-    position: absolute;
-    left: -5px;
-    top: 600px;
 }
