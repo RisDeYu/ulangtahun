@@ -301,8 +301,8 @@ body {
 
 .x4 {
     position: absolute;
-    right: 40%;
-    top: 87%;
+    right: 20%;
+    bottom: 20%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -330,7 +330,7 @@ body {
 .buledh4 {
     position: absolute;
     left: 30%;
-    bottom: 20%;
+    bottom: 2%;
 }
 
 .garisputus-atas {
@@ -354,7 +354,7 @@ body {
 .garisputus-bawah {
     position: absolute;
     right: 0%;
-    top: 600px;
+    bottom: 2%;
 }
 
 @keyframes muter {
