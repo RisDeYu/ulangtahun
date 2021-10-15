@@ -208,10 +208,71 @@ body {
     border-radius: 0px 0px 29px 29px;
 }
 
+.musik {
+    position: absolute;
+    top: 1.5%;
+    left: 2.5%;
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    border-style: solid;
+    border-color: #8359A3;
+    border-width: 3px;
+    box-sizing: border-box;
+}
+
+.boks {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    bottom: 25%;
+    left: 2%;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    box-sizing: border-box;
+}
+
+.boks .boksnav {
+    position: absolute;
+    width: 196px;
+    height: 40px;
+    background-color: #72896F;
+    border-radius: 18px 18px 0 0;
+}
+
+.boks .teks {
+    position: absolute;
+    width: 196px;
+    height: 104px;
+    top: 44px;
+    background-color: rgb(61, 226, 255);
+    border-radius: 0 0 18px 18px;
+}
+
+.boksnav .logo {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}
+
+.boksnav h1 {
+    position: absolute;
+    width: 200px;
+    top: 5px;
+    margin: auto;
+    text-align: center;
+    color: yellow;
+}
+
 .x1 {
     position: absolute;
-    left: 5%;
-    top: 7%;
+    left: 7%;
+    top: 9%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -220,7 +281,7 @@ body {
 
 .x2 {
     position: absolute;
-    top: 20%;
+    top: 21%;
     right: 10%;
     animation-name: muter;
     animation-duration: 2s;
@@ -231,7 +292,7 @@ body {
 .x3 {
     position: absolute;
     left: 2%;
-    top: 60%;
+    top: 48%;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -257,13 +318,13 @@ body {
 .buledh2 {
     position: absolute;
     left: 7%;
-    top: 28%;
+    top: 27%;
 }
 
 .buledh3 {
     position: absolute;
     right: 1%;
-    top: 43%;
+    top: 38%;
 }
 
 .buledh4 {
@@ -287,12 +348,12 @@ body {
 .garis-kanan {
     position: absolute;
     right: -4%;
-    top: 402px;
+    top: 48%;
 }
 
 .garisputus-bawah {
     position: absolute;
-    left: -5px;
+    right: 0%;
     top: 600px;
 }
 
