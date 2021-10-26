@@ -134,6 +134,10 @@ table {
 
 
 /* style css */
+html {
+    min-width: 100%;
+    overflow: hidden;
+}
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -223,6 +227,7 @@ body {
     border-color: #8359A3;
     border-width: 3px;
     box-sizing: border-box;
+    visibility: hidden;
 }
 
 
@@ -283,7 +288,7 @@ body {
 }
 
 .kata {
-    animation: ketikan 1s steps(20) 1s 1 normal both;
+    animation: ketikan 1.5s steps(20) 1s 1 normal both;
 }
 
 @keyframes ketikan {
@@ -296,35 +301,13 @@ body {
     }
 }
 
-/*.teks .kata {
-    font-size: 12px;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 5s steps(70, end);
-    animation: animasi-ketik 5s steps(70, end);
-}
-
-@keyframes animasi-ketik {
-    from {
-        width: 0;
-    }
-}
-
-@-webkit-keyframes animasi-ketik {
-    from {
-        width: 0;
-    }
-}
-
-*/
 
 /* VEKTOR PEMBUAT UWU*/
 
 .x1 {
     position: absolute;
-    left: 7%;
-    top: 60px;
+    left: 15%;
+    top: 5px;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -333,7 +316,7 @@ body {
 
 .x2 {
     position: absolute;
-    top: 150px;
+    top: 180px;
     right: 10%;
     animation-name: muter;
     animation-duration: 2s;
@@ -343,8 +326,8 @@ body {
 
 .x3 {
     position: absolute;
-    left: 2%;
-    top: 310px;
+    left: 8%;
+    top: 300px;
     animation-name: muter;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -363,49 +346,93 @@ body {
 
 .buledh1 {
     position: absolute;
-    right: 4%;
-    top: 1%;
+    right: 1%;
+    top: 80px;
 }
 
 .buledh2 {
     position: absolute;
-    left: 6%;
-    top: 220px;
+    left: 3%;
+    top: 210px;
 }
 
 .buledh3 {
     position: absolute;
-    right: 1%;
-    top: 300px;
+    right: 5%;
+    top: 450px;
 }
 
 .buledh4 {
     position: absolute;
-    left: 30%;
-    bottom: 2%;
+    left: 35%;
+    top: 2%;
+}
+
+.tiga1 {
+    position: absolute;
+    top: 70px;
+    left: 5%;
+    width: 33px;
+    animation-name: balik;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.tiga2 {
+    position: absolute;
+    top: 280px;
+    right: 5%;
+    width: 33px;
+    animation-name: balik;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.tiga3 {
+    position: absolute;
+    top: 380px;
+    left: 1%;
+    width: 33px;
+    animation-name: balik;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.tiga4 {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    width: 33px;
+    animation-name: balik;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .garisputus-atas {
     position: absolute;
-    right: 18%;
+    right: 10%;
     top: 0;
 }
 
 .garis-kiri {
     position: absolute;
     left: 0%;
-    top: 140px;
+    top: 130px;
 }
 
 .garis-kanan {
     position: absolute;
-    right: -4%;
-    top: 380px;
+    right: -20px;
+    top: 370px;
 }
 
 .garisputus-bawah {
     position: absolute;
-    right: 0%;
+    left: 0%;
     bottom: 2%;
 }
 
@@ -416,5 +443,15 @@ body {
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes balik {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
     }
 }
