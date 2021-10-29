@@ -1,6 +1,4 @@
 /*CSS RESET*/
-
-html,
 body,
 div,
 span,
@@ -153,6 +151,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
     background: linear-gradient(150.02deg, #54F5FF 7.62%, #ACF5D1 42.35%, #B0F5CE 51.23%, #BAF5C9 62.03%, #F4F5AB 81.71%);
 }
 
