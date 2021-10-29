@@ -154,6 +154,7 @@ body {
     margin: 0px;
     padding: 0px;
     background: linear-gradient(150.02deg, #54F5FF 7.62%, #ACF5D1 42.35%, #B0F5CE 51.23%, #BAF5C9 62.03%, #F4F5AB 81.71%);
+    overflow: hidden;
 }
 
 .konten .main-win {
@@ -164,6 +165,7 @@ body {
     margin-top: 70px;
     background: #FFFFFF;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .konten .navbar {
